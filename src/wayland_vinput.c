@@ -543,9 +543,9 @@ scroll_source_for_code(int code)
     switch (code) {
     case REL_WHEEL:
     case REL_HWHEEL:
-        return WL_POINTER_AXIS_SOURCE_FINGER;
+        return WL_POINTER_AXIS_SOURCE_WHEEL;
     default:
-        return WL_POINTER_AXIS_SOURCE_FINGER;
+        return WL_POINTER_AXIS_SOURCE_WHEEL;
     }
 }
 
